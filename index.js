@@ -20,8 +20,7 @@ mongoose
 const server = express();
 
 const corsOptions = {
-  corsOptions: true,
-  origin: '*',
+  origin: 'http://localhost:3000',
   credentials: true,
   optionsSuccessStatus: 200,
 };
