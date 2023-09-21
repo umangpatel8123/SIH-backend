@@ -21,7 +21,7 @@ const server = express();
 
 const corsOptions = {
   corsOptions: true,
-  origin: true,
+  origin: '*',
   credentials: true,
   optionsSuccessStatus: 200,
 };
