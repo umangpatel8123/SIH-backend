@@ -26,6 +26,22 @@ const BusSchema = new mongoose.Schema({
     type: Number,
     required: false,
   },
+  source: {
+    type: String,
+    required: false,
+  },
+  destination: {
+    type: String,
+    required: false,
+  },
+  arrivalTime: {
+    type: Date,
+    required: false,
+  },
+  duration: {
+    type: Number,
+    required: false,
+  },
 });
 
 export default mongoose.model('Bus', BusSchema);
